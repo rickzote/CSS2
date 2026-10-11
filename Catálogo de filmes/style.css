@@ -1,0 +1,44 @@
+body {
+    background-image: url("banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    height: 100px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+} 
+
+.cabeçalho h1 {
+    color: rgb(247, 121, 17);    
+    text-shadow: 2px 2px 5px rgb(247, 170, 128);
+    font-size: 55px;
+    margin: 0;
+    padding-top: 250px;
+    font-family: 'Display', sans-serif;
+}
+
+.cabeçalho h2 {
+    font-style: italic;
+    color: rgb(244, 177, 123);
+    font-size: 20px;
+    margin: 5px;
+}
+
+.menu {
+    background-color: #f88c00;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
