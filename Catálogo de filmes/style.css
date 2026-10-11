@@ -55,7 +55,7 @@ body {
 }
 
 .titulodestaque {
-    color: rgb(247, 121, 17);
+    color: #ff7300;
     text-align: center;
     font-size: 30px;
     margin: 35px 0 20px;
@@ -144,7 +144,7 @@ body {
 }
 
 .generos {
-   color: #ffb36b;
+    color: #ffb36b;
     font-size: 15px;
     font-weight: bold;
     line-height: 1.6;
@@ -159,4 +159,40 @@ body {
     line-height: 1.8;
     text-align: justify;
     margin: 0;
+}
+
+.blocogeneros {
+    width: 95%;
+    margin: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #270800e6;
+    border: 3px solid #ff7900;
+    border-radius: 18px;
+    box-shadow: 0 0 20px rgb(255, 119, 0);
+}
+
+.blocogeneros h2 {
+    color: rgb(247, 121, 17);
+    font-family: 'Display', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    margin: 5px;
+}
+
+.listageneros {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100;
+}
+
+.listageneros li {
+    flex: 1;
+    text-align: center;
+    color: #ffb36b;
+    font-size: 16px;
+    border-right: 1px solid #ff7900;
 }
